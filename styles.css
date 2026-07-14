@@ -1,0 +1,106 @@
+/* Generiertes CSS für Wetter-App */
+
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(180deg, #dbeafe, #93c5fd);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.container {
+    width: 100%;
+    max-width: 380px;
+    background: white;
+    border-radius: 20px;
+    padding: 30px 25px;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
+    text-align: center;
+}
+
+h1 {
+    color: #1e3a8a;
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+
+
+
+.search-box {
+    margin-bottom: 20px;
+}
+
+#city {
+    width: 100%;
+    padding: 14px;
+    border: 2px solid #bfdbfe;
+    border-radius: 12px;
+    font-size: 1rem;
+    outline: none;
+    margin-bottom: 12px;
+}
+
+#city:focus {
+    border-color: #3b82f6;
+}
+
+button {
+    width: 100%;
+    padding: 14px;
+    background: #2563eb;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #1d4ed8;
+}
+
+.weather-card {
+    display: none;
+    margin-top: 20px;
+    padding: 20px;
+    background: #eff6ff;
+    border-radius: 16px;
+}
+
+#weather-icon {
+    width: 90px;
+    height: 90px;
+    margin: 0 auto 10px;
+}
+
+#cityname {
+    font-size: 1.5rem;
+    color: #1e3a8a;
+    margin-bottom: 8px;
+}
+
+#temperatur {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #111827;
+    margin-bottom: 6px;
+}
+
+#desc {
+    font-size: 1rem;
+    color: #475569;
+    text-transform: capitalize;
+}
+.weather-card {
+    display: none;
+}
