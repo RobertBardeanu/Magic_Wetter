@@ -1,7 +1,7 @@
 # Magic Wetter
 
 Magic Wetter ist eine einfache Wetter-App, gebaut mit HTML, CSS und JavaScript.  
-Sie zeigt die aktuellen Wetterdaten zu einer Stadt über die OpenWeather-API an.[web:15]
+Sie zeigt die aktuellen Wetterdaten zu einer Stadt über die OpenWeather-API an.
 
 ## Funktionen
 
@@ -19,7 +19,7 @@ Sie zeigt die aktuellen Wetterdaten zu einer Stadt über die OpenWeather-API an.
 - HTML für die Struktur der Seite.
 - CSS für das Design.
 - JavaScript für die Logik und den API-Aufruf.
-- OpenWeather-API für aktuelle Wetterdaten.[web:15]
+- OpenWeather-API für aktuelle Wetterdaten.
 
 ## Projektstruktur
 
